@@ -1,0 +1,56 @@
+body {
+    background: rgb(80,77,77);
+    background: linear-gradient(90deg, rgba(80,77,77,1) 0%, rgba(0,0,0,1) 37%, rgba(0,0,0,1) 100%);
+}
+
+
+.home .fotos img{
+    display: flex;
+    position: center;
+    align-items: center;
+    width: 50%;
+    padding: 100px 80px;
+    gap: 10px;
+}
+
+.home {
+    display: flex;
+    gap: 30px;
+}
+
+.home .fotos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+
+.home  h1,h2{
+    color: aliceblue;
+    align-items: center;
+    display: inline-block;
+}
+
+.home h1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap:32px;
+    padding: 903px 100px 10px 339px;
+    font-family: "ChaletComprime";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.home h2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap:32px;
+   padding: 900px 70px 30px 1250px;
+   font-family: "ChaletComprime";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
